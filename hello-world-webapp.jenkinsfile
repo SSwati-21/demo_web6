@@ -2,8 +2,7 @@
 
 // --------------------------------------------
 // -- CREATED BY: Swati Srivastava
-// -- Created Date:
-// -- https://github.com/SSwati-21/java-hello-world-webapp1/ --
+// -- https://github.com/SSwati-21/demo_web6/ --
 // ----------------------------------------------
 
 pipeline {
@@ -15,7 +14,7 @@ pipeline {
 	    	stages {
         		stage("Git") {
             				steps {
-               					git 'https://github.com/SSwati-21/java-hello-world-webapp1.git'
+               					git 'https://github.com/SSwati-21/demo_web6.git'
             				}
         		}
 	
